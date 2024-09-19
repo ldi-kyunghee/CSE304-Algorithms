@@ -8,16 +8,16 @@ def location(low, high, S, x):
 print("######Example 1######")
 S = [5, 7, 8, 10, 11, 13]
 x = 15 
-location = location(0, len(S)-1, S, x)
-print("location:", location)
+result = location(0, len(S)-1, S, x)
+print("location:", result)
 print(f"{'-'*20}\n")
 
 # Example 2
 print("######Example 2######") 
 S = [5, 7, 8, 10, 11, 13]
 x = 10 
-location = location(0, len(S)-1, S, x)
-print("location:", location)
+result = location(0, len(S)-1, S, x)
+print("location:", result)
 print(f"{'-'*20}\n")
 
 # Example 3 - Your Custom Case 
@@ -26,6 +26,6 @@ print("######Example 3######")
 # S = 
 # x = 
 raise NotImplementedError("Complete your example.")
-location = location(0, len(S)-1, S, x)
-print("location:", location)
+result = location(0, len(S)-1, S, x)
+print("location:", resul)
 print(f"{'-'*20}\n")
