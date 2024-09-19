@@ -27,5 +27,5 @@ print("######Example 3######")
 # x = 
 raise NotImplementedError("Complete your example.")
 result = location(0, len(S)-1, S, x)
-print("location:", resul)
+print("location:", result)
 print(f"{'-'*20}\n")
