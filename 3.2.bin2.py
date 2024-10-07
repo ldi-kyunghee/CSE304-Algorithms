@@ -32,9 +32,10 @@ print(f"{'-'*20}\n")
 print("######Example 3######") 
 # Insert your example here
 # n = 
+# k =
 raise NotImplementedError("Complete your example.")
 stime = time.time()
-answer = bin2(n)
+answer = bin2(n, k)
 etime = time.time() - stime
 print("answer:", answer)
 print("execution time:", round(etime,5))
